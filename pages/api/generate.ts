@@ -21,5 +21,5 @@ export default async function handler(req: NextRequest) {
       },
     }
   );
-  return NextResponse.json(output);
+  return NextResponse.json({ output });
 }
